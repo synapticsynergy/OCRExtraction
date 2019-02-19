@@ -7,8 +7,9 @@ A simple web application for text extraction from images.
 1. [Requirements](#requirements)
 1. [Development](#development)
     1. [Installing Dependencies](#installing-dependencies)
-    1. [Tasks](#tasks)
-1. [Contributing](#contributing)
+    1. [Serving in Development](#serving-in-development)
+    1. [Testing](#testing)
+1. [Roadmap](#roadmap)
 
 ## Usage
 
@@ -19,6 +20,8 @@ A simple web application for text extraction from images.
 - Node 10.2.1 or higher
 - NPM 5.6.0 or higher
 
+## Development
+
 ### Installing Dependencies
 
 From within the root directory:
@@ -27,23 +30,29 @@ From within the root directory:
 cd client
 yarn
 ```
-or 
-```sh
-cd client
-npm install
-```
 
-## Development
+## Serving in Development
+
 From within the root directory:
 
 ```sh
 cd client
 yarn start
 ```
-or 
+
+## Testing
+
+From within the root directory:
+
+Client side testing:
 ```sh
 cd client
-npm start
+yarn test
+```
+
+Server side testing:
+```sh
+yarn test
 ```
 
 ### Roadmap
